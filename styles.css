@@ -29,7 +29,7 @@ body {
 }
 
 .hero {
-  background: url('images/breakfast.jpg') no-repeat center center/cover;
+  background: url('breakfast.jpg') no-repeat center center/cover;
   color: white;
   padding: 1000px 100px;
   text-align: center;
