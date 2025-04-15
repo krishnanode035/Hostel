@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saravana Bhavan Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">foodtaste</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#specials">Today's Specials</a></li>
+          <li><a href="#schedule">Weekly Schedule</a></li>
+          <li><a href="#complaint">Complaint</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Welcome to food taste</h2>
+      <p>Authentic South Indian Cuisine Delivered with Love</p>
+    </div>
+  </section>
+
+  <section class="specials" id="specials">
+    <div class="container">
+      <h2>Today's Special Items</h2>
+      <ul>
+        <li><strong>Breakfast:</strong> Pongal with Coconut Chutney</li>
+        <li><strong>Lunch:</strong> Chicken Biryani with Raita</li>
+        <li><strong>Dinner:</strong> Chapati with Kurma</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="container">
+      <h2>Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="images/breakfast.jpg" alt="Breakfast">
+          <h3>Breakfast</h3>
+          <p>Idly, Dosa, Pongal, Upma, Chutneys, Sambar</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/lunch.jpg" alt="Lunch">
+          <h3>Lunch</h3>
+          <p>Meals, Sambar, Rasam, Poriyal, Kootu, Curd</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/dinner.jpg" alt="Dinner">
+          <h3>Dinner</h3>
+          <p>Chapati, Kurma, Dosa, Lemon Rice, Curd Rice</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="schedule" id="schedule">
+    <div class="container">
+      <h2>Weekly Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>Idly & Sambar</td><td>Veg Thali</td><td>Chapati & Dal</td></tr>
+          <tr><td>Tuesday</td><td>Dosa & Chutney</td><td>Chicken Biryani</td><td>Parotta & Salna</td></tr>
+          <tr><td>Wednesday</td><td>Poori & Masala</td><td>Fish Curry & Rice</td><td>Veg Fried Rice</td></tr>
+          <tr><td>Thursday</td><td>Pongal & Vada</td><td>Sambar Rice & Papad</td><td>Egg Dosa</td></tr>
+          <tr><td>Friday</td><td>Upma & Chutney</td><td>Paneer Butter Masala & Naan</td><td>Lemon Rice</td></tr>
+          <tr><td>Saturday</td><td>Aloo Paratha</td><td>Curd Rice & Pickle</td><td>Chapati & Kurma</td></tr>
+          <tr><td>Sunday</td><td>Medu Vada & Sambar</td><td>Special Chicken Curry</td><td>Veg Pulao</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="complaint" id="complaint">
+    <div class="container">
+      <h2>Complaint Form</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Complaint" required></textarea>
+        <button type="submit">Submit Complaint</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Saravana Bhavan Clone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
